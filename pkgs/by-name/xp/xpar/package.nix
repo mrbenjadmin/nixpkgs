@@ -35,6 +35,7 @@ in
       changelog = "https://github.com/kspalaiologos/xpar/blob/${version}/NEWS";
       license = lib.licenses.gpl3Plus;
       maintainers = with lib.maintainers; [ mrbenjadmin ];
-      platforms = lib.platforms.unix;
+      platforms = lib.platforms.all;
+      mainProgram = "xpar";
     };
   }
