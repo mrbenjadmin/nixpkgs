@@ -30,7 +30,7 @@ in
       ++ lib.optional stdenv.hostPlatform.isAarch64 "--enable-aarch64";
 
     meta = {
-      description = "An error/erasure code system guarding data integrity.";
+      description = "Error/erasure code system guarding data integrity";
       homepage = "https://github.com/kspalaiologos/xpar";
       changelog = "https://github.com/kspalaiologos/xpar/blob/${version}/NEWS";
       license = lib.licenses.gpl3Plus;
